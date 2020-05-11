@@ -30,5 +30,4 @@ class CarController:
             self._imageAnalysisService.detect_traffic_light(image)
             self._car.move_forward()
             time.sleep(1)
-
         self._car.stop()
